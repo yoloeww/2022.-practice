@@ -1,5 +1,0 @@
-plt.figure(figsize=(8,8))
-data = train['MSZoning'].value_counts()
-explode = (0, 0.1, 0, 0, 0)
-plt.pie(x =data,explode = explode, autopct = '%1.2f%%')
-plt.show()
